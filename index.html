@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome (single import instead of duplicate) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ganesh Verma - Portfolio</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="dots.css"> -->
+    <link rel="stylesheet" href="hamburger.css">
+</head>
+
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- NAVIGATION SECTION -->
+    <header>
+        <nav>
+            <div class="left">
+                <svg class="gear-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M19.43 12.98c.04-.32.07-.65.07-.98s-.03-.66-.07-.98l2.11-1.65a.5.5 0 0 0 .12-.63l-2-3.46a.5.5 0 0 0-.6-.22l-2.49 1a7.032 7.032 0 0 0-1.69-.98l-.38-2.65a.5.5 0 0 0-.5-.42h-4a.5.5 0 0 0-.5.42l-.38 2.65c-.61.24-1.18.56-1.69.98l-2.49-1a.5.5 0 0 0-.6.22l-2 3.46a.5.5 0 0 0 .12.63l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98L2.57 14.63a.5.5 0 0 0-.12.63l2 3.46a.5.5 0 0 0 .6.22l2.49-1c.51.42 1.08.74 1.69.98l.38 2.65c.04.24.24.42.5.42h4c.26 0 .46-.18.5-.42l.38-2.65c.61-.24 1.18-.56 1.69-.98l2.49 1a.5.5 0 0 0 .6-.22l2-3.46a.5.5 0 0 0-.12-.63l-2.11-1.65zM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" />
+                </svg>
+                GANESH
+            </div>
+            <!-- Old menu icon (hidden) -->
+            <!-- <div class="menu-icon" onclick="toggleMenu()">&#8942;</div> -->
+
+            <!-- New hamburger menu -->
+            <div class="hamburger-menu" id="hamburgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Desktop navigation -->
+            <ul id="desktopNav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Mobile navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Overlay for mobile menu -->
+        <div class="menu-overlay" id="menuOverlay"></div>
+    </header>
+
+    <!-- HERO SECTION WITH TYPEWRITER ANIMATION -->
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">
+                <div class="greeting">HI! Myself,</div>
+                <h2 class="name">GANESH VERMA</h2>
+                <div class="title-container">
+                    <div class="static-text">a</div>
+                    <div class="dynamic-text"></div>
+                </div>
+                <!-- SOCIAL MEDIA ICONS START -->
+                <div class="social-contact-container">
+                    <div class="social-icons">
+                        <a href="https://github.com/yourusername" target="_blank" class="social-icon github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ganesh-verma-4358aa352" target="_blank"
+                            class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://x.com/BibekVerma21?t=C9iadxHabnc_1r7lREGloQ&s=09" target="_blank"
+                            class="social-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bibek_verma108?igsh=MWhjN3E4YTltdmNreQ==" target="_blank"
+                            class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:bibekverma21@gmail.com" class="social-icon email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <button class="contact-btn">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="assets/hero.jpg" alt="Developer Illustration" />
+            </div>
+        </section>
+    </main>
+    <!-- PORTFOLIO CONTENT SECTIONS -->
+
+
+    <!-- ABOUT SECTION START -->
+    <section class="about-section" id="about">
+        <div class="profile-image">
+            <img src="assets/about.img.jpg" alt="Ganesh Kumar Verma">
+        </div>
+
+        <div class="about-content">
+            <h2> <span><i class="fa fa-user-circle" aria-hidden="true"></i></span> About Me</h2>
+            <p>
+                Hello! I'm Ganesh Kumar Verma, a passionate and self-motivated Frontend Developer currently pursuing
+                a
+                Bachelor's in Computer Applications (Data Science + AI) at Shri Ramswaroop Memorial University,
+                Lucknow.
+                I enjoy turning ideas into visually engaging, user-friendly interfaces using technologies like HTML,
+                CSS, JavaScript, and React.js.
+            </p>
+            <p>
+                With a foundation in Python, C++, and JavaScript, and hands-on experience in MongoDB, PostgreSQL,
+                and
+                Express.js, I love solving real-world problems through clean code and creative design.
+            </p>
+            <a href="your-resume.pdf" class="resume-btn" download>Download Resume</a>
+        </div>
+    </section>
+    <!-- ABOUT SECCTION ENDS -->
+
+
+    <!-- SKILLS SECTION STARTS -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" style="--skill-color: var(--green)">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>JavaScript</span>
+                                <div class="skill-level">90%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--gold)">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Python</span>
+                                <div class="skill-level">80%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--wisteria)">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>C++</span>
+                                <div class="skill-level">75%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MERN Stack -->
+                <div class="skill-category">
+                    <h3 class="category-title">MERN Stack</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" style="--skill-color: var(--metallic-violet)">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Node.js</span>
+                                <div class="skill-level">85%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--royal-purple)">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>React.js</span>
+                                <div class="skill-level">88%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--dark-pastel-purple)">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>MongoDB</span>
+                                <div class="skill-level">82%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 82%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--wisteria)">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Express.js</span>
+                                <div class="skill-level">83%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 83%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Web Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Web Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" style="--skill-color: var(--gold)">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>HTML5</span>
+                                <div class="skill-level">95%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--green)">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>CSS3</span>
+                                <div class="skill-level">92%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--metallic-violet)">
+                            <div class="skill-icon">
+                                <i class="fab fa-sass"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Sass</span>
+                                <div class="skill-level">85%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--royal-purple)">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Git</span>
+                                <div class="skill-level">87%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 87%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Other Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" style="--skill-color: var(--dark-pastel-purple)">
+                            <div class="skill-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Video Editing</span>
+                                <div class="skill-level">78%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 78%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--wisteria)">
+                            <div class="skill-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Graphic Design</span>
+                                <div class="skill-level">80%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--gold)">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>Power BI</span>
+                                <div class="skill-level">75%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" style="--skill-color: var(--green)">
+                            <div class="skill-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="skill-content">
+                                <span>SEO</span>
+                                <div class="skill-level">82%</div>
+                            </div>
+                            <div class="skill-progress-container">
+                                <div class="skill-progress" style="width: 82%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SKILL SECTION ENDS -->
+
+
+    <!-- EDUCATION SECTION STARTS -->
+    <section class="education-section" id="education">
+        <div class="education-container">
+            <div class="section-title">
+                <h2>Education</h2>
+                <!-- <div class="underline"></div> -->
+            </div>
+
+            <!-- Education Item 1 -->
+            <div class="education-item">
+                <div class="education-image">
+                    <img src="assets/srmu.jpg" alt="University Campus">
+                </div>
+                <div class="education-content">
+                    <!-- <span class="education-status">Pursuing</span> -->
+                    <h3 class="education-degree">Bachelor of Computer Application with Data Science & AI <br> (BCA
+                        DS+AI)
+                    </h3>
+                    <p class="education-institution">Shri Ramswaroop Memorial University (SRMU)</p>
+                    <span class="education-duration">2024 - 2027</span>
+                    <span class="education-status">Pursuing</span>
+                    <p class="education-description">
+                        Currently pursuing my undergraduate degree with specialization in Data Science and
+                        Artificial
+                        Intelligence.
+                        The program covers advanced topics in machine learning, data analytics, and AI applications.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Education Item 2 -->
+            <div class="education-item">
+                <div class="education-image">
+                    <img src="assets/st.thomas.jpg" alt="School Building">
+                </div>
+                <div class="education-content">
+                    <!-- <span class="education-status">Completed</span> -->
+                    <h3 class="education-degree">+2 in Science (PCM)</h3>
+                    <p class="education-institution">St. Thomas Secondary School</p>
+                    <span class="education-duration">2022 - 2024</span>
+                    <span class="education-status">Completed</span>
+                    <p class="education-description">
+                        Completed my higher secondary education with Physics, Chemistry, and Mathematics as main
+                        subjects.
+                        Gained strong foundation in scientific principles and problem-solving skills.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Education Item 3 -->
+            <div class="education-item">
+                <div class="education-image">
+                    <img src="assets/pashupati.jpg" alt="School Campus">
+                </div>
+                <div class="education-content">
+                    <!-- <span class="education-status">Completed</span> -->
+                    <h3 class="education-degree">Higher Secondary School</h3>
+                    <p class="education-institution">Pashupati English Medium Higher Secondary School</p>
+                    <span class="education-duration">Starting - 2023</span>
+                    <span class="education-status">Completed</span>
+                    <p class="education-description">
+                        Completed my secondary education with distinction. Developed fundamental knowledge in
+                        various
+                        subjects
+                        and participated in extracurricular activities that helped in overall personality
+                        development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION ENDS -->
+
+    <!-- PROJECTS SECCTION STSRTS  -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <h2>Featured <span class="highlight">Projects</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="project-links">
+                        <a href="#" class="demo-link">Live Demo</a>
+                        <a href="#" class="code-link">View Code</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>AI-Powered Dashboard</h3>
+                    <p class="project-description">A responsive dashboard with machine learning insights and
+                        real-time
+                        data visualization.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="project-links">
+                        <a href="#" class="demo-link">Live Demo</a>
+                        <a href="#" class="code-link">View Code</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p class="project-description">Full-stack e-commerce solution with payment integration and
+                        inventory
+                        management.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Stripe API</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-links">
+                        <a href="#" class="demo-link">Live Demo</a>
+                        <a href="#" class="code-link">View Code</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Mobile Fitness App</h3>
+                    <p class="project-description">Cross-platform fitness tracking application with personalized
+                        workout
+                        plans.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                        <span>HealthKit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION STARTS -->
+    <section class="experience-section" id="experience">
+        <div class="section-header">
+            <h2>Professional <span class="highlight">Journey</span></h2>
+            <div class="underline"></div>
+            <p class="section-subtitle">My work experience and contributions</p>
+        </div>
+
+        <div class="timeline">
+            <!-- Experience 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">August 2025 - Present</div>
+                <div class="timeline-content">
+                    <h3>Web Development Internship</h3>
+                    <h4>CODSOFT</h4>
+                    <p>Developed a responsive portfolio website, an engaging landing page, and an advanced feature-rich
+                        calculator showcasing modern web development skills.
+                    </p>
+                    <div class="tech-used">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">3rd-25 May 2025</div>
+                <div class="timeline-content">
+                    <h3>Quantum Computing Project</h3>
+                    <h4>IIT Roorkee</h4>
+                    <p>Worked on a quantum computing project focusing on quantum algorithms and their applications using
+                        Qiskit framework.
+                    </p>
+                    <div class="tech-used">
+                        <span>Python</span>
+                        <span>Qiskit</span>
+                        <span>Quantum Algorithms</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date"> October 2024 - november 2024</div>
+                <div class="timeline-content">
+                    <h3>Data Science Intern</h3>
+                    <h4>IBM</h4>
+                    <p>Worked on end-to-end data science projects involving data cleaning, visualization, and predictive
+                        modeling using Python and machine learning techniques.</p>
+                    <div class="tech-used">
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 4 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">August 2024</div>
+                <div class="timeline-content">
+                    <h3>Coding Competitor</h3>
+                    <h4>Shri Ramswaroop Memorial University</h4>
+                    <p>Participated in a university-level coding competition, solving algorithmic and problem-solving
+                        challenges under time constraints.</p>
+                    <div class="tech-used">
+                        <span>C++</span>
+                        <span>Python</span>
+                        <span>Data Structures & Algorithms</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Experience 5 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">may 2024 - july 2024</div>
+                <div class="timeline-content">
+                    <h3>UI/UX Developer</h3>
+                    <h4>CreativeMinds Agency</h4>
+                    <p>Designed and implemented user interfaces for web and mobile applications with focus on
+                        accessibility.</p>
+                    <div class="tech-used">
+                        <span>Figma</span>
+                        <span>React</span>
+                        <span>Adobe XD</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 6 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - Present</div>
+                <div class="timeline-content">
+                    <h3>Video Editor</h3>
+                    <h4>YouTube</h4>
+                    <p>Edited and produced engaging video content with smooth transitions, effects, and optimized visuals to enhance viewer retention.</p>
+                    <div class="tech-used">
+                        <span>Adobe Premiere Pro</span>
+                        <span>DaVinci Resolve</span>
+                        <span>Canva</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 7 -->
+            <!-- <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017 - 2018</div>
+                <div class="timeline-content">
+                    <h3>Freelance Developer</h3>
+                    <h4>Self-Employed</h4>
+                    <p>Worked with various clients to build websites, web applications, and custom solutions.</p>
+                    <div class="tech-used">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Experience 8 -->
+            <!-- <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2016 - 2017</div>
+                <div class="timeline-content">
+                    <h3>Intern Developer</h3>
+                    <h4>TechStart Inc.</h4>
+                    <p>Assisted senior developers in building internal tools and maintaining existing applications.
+                    </p>
+                    <div class="tech-used">
+                        <span>Java</span>
+                        <span>Spring</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Experience 9 -->
+            <!-- <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2015 - 2016</div>
+                <div class="timeline-content">
+                    <h3>Technical Support</h3>
+                    <h4>IT Solutions Ltd.</h4>
+                    <p>Provided technical support and basic web maintenance for small business clients.</p>
+                    <div class="tech-used">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Experience 10 -->
+            <!-- <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2014 - 2015</div>
+                <div class="timeline-content">
+                    <h3>Computer Lab Assistant</h3>
+                    <h4>University Tech Center</h4>
+                    <p>Assisted students with technical issues and maintained computer lab equipment.</p>
+                    <div class="tech-used">
+                        <span>Hardware</span>
+                        <span>Troubleshooting</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Experience 11 -->
+            <!-- <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2013 - 2014</div>
+                <div class="timeline-content">
+                    <h3>Volunteer Web Developer</h3>
+                    <h4>Non-Profit Organization</h4>
+                    <p>Developed and maintained website for local non-profit organization.</p>
+                    <div class="tech-used">
+                        <span>WordPress</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Experience 12 -->
+            <!-- <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2012 - 2013</div>
+                <div class="timeline-content">
+                    <h3>Student Developer</h3>
+                    <h4>University Projects</h4>
+                    <p>Developed various academic projects including database systems and web applications.</p>
+                    <div class="tech-used">
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- PROJECTS SECTION ENDS -->
+
+
+    <!-- ACHIEVEMENTS SECTION STARTS -->
+    <section class="achievements-section" id="achievements">
+        <div class="section-header">
+            <h2>My <span class="highlight">Achievements</span></h2>
+            <div class="underline"></div>
+            <p class="section-subtitle">Certifications and recognitions in my development journey</p>
+        </div>
+
+        <div class="achievements-grid">
+            <!-- Achievement 1 -->
+            <div class="achievement-card">
+                <div class="certificate-container">
+                    <img src="https://images.unsplash.com/photo-1589330694653-ded6df03f754?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="AWS Certified Developer" class="certificate-img">
+                    <div class="certificate-overlay">
+                        <a href="#" class="view-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="achievement-info">
+                    <h3>AWS Certified Developer</h3>
+                    <p class="achievement-date">Issued May 2023</p>
+                    <p class="achievement-desc">Demonstrated expertise in developing and maintaining applications on
+                        AWS.</p>
+                </div>
+            </div>
+
+            <!-- Achievement 2 -->
+            <div class="achievement-card">
+                <div class="certificate-container">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Google Cloud Professional" class="certificate-img">
+                    <div class="certificate-overlay">
+                        <a href="#" class="view-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="achievement-info">
+                    <h3>Google Cloud Professional</h3>
+                    <p class="achievement-date">Issued March 2023</p>
+                    <p class="achievement-desc">Certified in designing, developing, and managing Google Cloud
+                        solutions.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Achievement 3 -->
+            <div class="achievement-card">
+                <div class="certificate-container">
+                    <img src="https://images.unsplash.com/photo-1592609931095-54a2168ae893?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="React Expert Certification" class="certificate-img">
+                    <div class="certificate-overlay">
+                        <a href="#" class="view-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="achievement-info">
+                    <h3>React Expert Certification</h3>
+                    <p class="achievement-date">Issued January 2023</p>
+                    <p class="achievement-desc">Advanced React concepts including hooks, context, and performance
+                        optimization.</p>
+                </div>
+            </div>
+
+            <!-- Achievement 4 -->
+            <div class="achievement-card">
+                <div class="certificate-container">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Node.js Master Certification" class="certificate-img">
+                    <div class="certificate-overlay">
+                        <a href="#" class="view-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="achievement-info">
+                    <h3>Node.js Master Certification</h3>
+                    <p class="achievement-date">Issued November 2022</p>
+                    <p class="achievement-desc">Mastery of backend development with Node.js and Express frameworks.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Achievement 5 -->
+            <div class="achievement-card">
+                <div class="certificate-container">
+                    <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Python Data Science" class="certificate-img">
+                    <div class="certificate-overlay">
+                        <a href="#" class="view-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="achievement-info">
+                    <h3>Python Data Science</h3>
+                    <p class="achievement-date">Issued August 2022</p>
+                    <p class="achievement-desc">Data analysis and machine learning with Python libraries.</p>
+                </div>
+            </div>
+
+            <!-- Achievement 6 -->
+            <div class="achievement-card">
+                <div class="certificate-container">
+                    <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="UX Design Specialization" class="certificate-img">
+                    <div class="certificate-overlay">
+                        <a href="#" class="view-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="achievement-info">
+                    <h3>UX Design Specialization</h3>
+                    <p class="achievement-date">Issued June 2022</p>
+                    <p class="achievement-desc">User experience design principles and prototyping techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EXPERIENCE SECTION ENDS -->
+
+
+    <!-- contact section starts -->
+    <section class="contact-section" id="contact">
+        <h2 class="contact-title">Get in <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-left">
+                <svg class="connection-svg" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M100 150C100 67.157 167.157 0 250 0C332.843 0 400 67.157 400 150C400 232.843 332.843 300 250 300"
+                        stroke="var(--green)" stroke-width="2" stroke-dasharray="8 4" />
+                    <path d="M250 150L350 150" stroke="var(--green)" stroke-width="2" stroke-linecap="round" />
+                    <path d="M300 120L350 150L300 180" stroke="var(--green)" stroke-width="2" stroke-linecap="round"
+                        fill="none" />
+                    <circle cx="250" cy="150" r="8" fill="var(--green)" />
+                    <circle cx="100" cy="150" r="6" fill="var(--green)" />
+                    <circle cx="400" cy="150" r="6" fill="var(--green)" />
+                </svg>
+                <h2>Let's Connect</h2>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your
+                    vision.</p>
+                <div class="info">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M20 4H4c-1.1 0-2 .9-2 2v1l10 6 10-6V6c0-1.1-.9-2-2-2zm0 4.24l-8 4.73-8-4.73V18c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8.24z" />
+                    </svg>
+                    <span>bibekverma21@gmail.com</span>
+                </div>
+                <div class="info">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M6.6 10.8c1.6 3.4 4.2 6 7.6 7.6l2.5-2.5c.3-.3.8-.4 1.2-.3 1.3.4 2.7.6 4.1.6.7 0 1.3.6 1.3 1.3v4.1c0 .7-.6 1.3-1.3 1.3-11 0-20-9-20-20C1.3.6 1.9 0 2.6 0h4.1c.7 0 1.3.6 1.3 1.3 0 1.4.2 2.8.6 4.1.1.4 0 .9-.3 1.2L6.6 10.8z" />
+                    </svg>
+                    <span>9236885856</span>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form id="contactForm" action="https://formsubmit.co/bibekverma21@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name" />
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Your email address" />
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number (optional)" />
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required
+                            placeholder="Write your message here..."></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <svg viewBox="0 0 24 24">
+                            <path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z" />
+                        </svg>
+                    </button>
+                    <div class="form-status" style="display: none;"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- Footer Section -->
+    <!-- Scroll progress indicator -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Footer Section -->
+
+    <body>
+        <!-- Scroll progress indicator -->
+        <div class="scroll-progress" id="scrollProgress"></div>
+
+        <!-- Circular Back to Top Button -->
+        <div class="circle-back-to-top" id="circleBackToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </div>
+
+        <!-- Footer Section -->
+        <!-- Scroll progress indicator -->
+        <div class="scroll-progress" id="scrollProgress"></div>
+
+        <!-- MODIFIED: Circular Back to Top Button - Now on RIGHT side -->
+        <div class="circle-back-to-top" id="circleBackToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <!-- Personal Info -->
+                    <div class="footer-col">
+                        <h3>Ganesh Kumar Verma</h3>
+                        <p class="tagline">Full Stack Developer</p>
+                        <p>Building clean UIs & scalable backend systems</p>
+
+                        <div class="contact-info">
+                            <p>
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:bibekverma21@gmail.com">bibekverma21@gmail.com</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <a href="tel:+919236885856">+91 9236885856</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <span>Lucknow, India</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Links -->
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <nav class="footer-nav" aria-label="Footer navigation">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#achievements">Achievements</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="footer-col">
+                        <h3>Connect With Me</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/" class="social-link" target="_blank" rel="noopener noreferrer"
+                                aria-label="GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ganesh-verma-4358aa352" class="social-link"
+                                target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-link" target="_blank" rel="noopener noreferrer"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="mailto:bibekverma21@gmail.com" class="social-link" aria-label="Email">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-link" target="_blank" rel="noopener noreferrer"
+                                aria-label="Twitter">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://wa.me/919236885856" class="social-link" target="_blank"
+                                rel="noopener noreferrer" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="footer-divider" role="separator"></div>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <p>© <span id="currentYear">2025</span> Ganesh Kumar Verma. Built with <span>💻</span> +
+                        <span>☕</span>
+                        in VS Code
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT -->
+        <script src="script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script src="particles.JS"></script>
+
+
+    </body>
+
+</html>

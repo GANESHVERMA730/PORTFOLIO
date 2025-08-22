@@ -1,0 +1,134 @@
+ /* HAMBURGER MENU STYLES - ADDED TO HEAD */
+ .hamburger-menu {
+     display: none;
+     position: relative;
+     width: 30px;
+     height: 24px;
+     cursor: pointer;
+     z-index: 1001;
+ }
+
+ .hamburger-menu span {
+     display: block;
+     position: absolute;
+     height: 3px;
+     width: 100%;
+     background: var(--gold);
+     border-radius: 3px;
+     opacity: 1;
+     left: 0;
+     transform: rotate(0deg);
+     transition: .25s ease-in-out;
+ }
+
+ .hamburger-menu span:nth-child(1) {
+     top: 0px;
+ }
+
+ .hamburger-menu span:nth-child(2),
+ .hamburger-menu span:nth-child(3) {
+     top: 10px;
+ }
+
+ .hamburger-menu span:nth-child(4) {
+     top: 20px;
+ }
+
+ .hamburger-menu.open span:nth-child(1) {
+     top: 10px;
+     width: 0%;
+     left: 50%;
+ }
+
+ .hamburger-menu.open span:nth-child(2) {
+     transform: rotate(45deg);
+     background: var(--green);
+ }
+
+ .hamburger-menu.open span:nth-child(3) {
+     transform: rotate(-45deg);
+     background: var(--green);
+ }
+
+ .hamburger-menu.open span:nth-child(4) {
+     top: 10px;
+     width: 0%;
+     left: 50%;
+ }
+
+ /* MOBILE MENU STYLES */
+ .mobile-nav {
+     position: fixed;
+     top: 0;
+     right: -100%;
+     width: 70%;
+     max-width: 300px;
+     height: 100vh;
+     background-color: var(--cetacean-blue);
+     z-index: 1000;
+     transition: right 0.3s ease;
+     padding: 80px 30px;
+     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+ }
+
+ .mobile-nav.open {
+     right: 0;
+ }
+
+ .mobile-nav ul {
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .mobile-nav li a {
+     color: var(--wisteria);
+     text-decoration: none;
+     font-size: 1.2rem;
+     transition: color 0.3s ease;
+     display: block;
+     padding: 10px;
+     border-radius: 4px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .mobile-nav li a:hover {
+     color: var(--green);
+     background-color: rgba(123, 75, 191, 0.2);
+ }
+
+ .menu-overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(1, 4, 64, 0.7);
+     z-index: 999;
+     opacity: 0;
+     visibility: hidden;
+     transition: all 0.3s ease;
+ }
+
+ .menu-overlay.open {
+     opacity: 1;
+     visibility: visible;
+ }
+
+ /* Hide the old menu icon */
+ /* .menu-icon {
+     display: none !important;
+ } */
+
+ @media (max-width: 768px) {
+     .hamburger-menu {
+         display: block;
+     }
+
+     /* Ensure desktop nav is hidden on mobile */
+     nav ul {
+         display: none;
+     }
+ }
+
